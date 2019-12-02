@@ -32,13 +32,13 @@ public class ServiceGenerator {
 
     public static <Service> Service createService(Class<Service> serviceClass) {
 
-        AService aService;
-        BService bService;
-        CService cService;
-
-        aService = ServiceGenerator.createService(AService.class);
-        bService = ServiceGenerator.createService(BService.class);
-        cService = ServiceGenerator.createService(CService.class);
+//        AService aService;
+//        BService bService;
+//        CService cService;
+//
+//        aService = ServiceGenerator.createService(AService.class);
+//        bService = ServiceGenerator.createService(BService.class);
+//        cService = ServiceGenerator.createService(CService.class);
         if (!httpClient.interceptors().contains(logging)) {
             httpClient.addInterceptor(logging);
         }

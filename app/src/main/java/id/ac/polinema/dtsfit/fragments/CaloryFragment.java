@@ -148,4 +148,4 @@ public class CaloryFragment extends Fragment implements CaloriesAdapter.OnCalory
         void onAddCaloryButtonClicked();
         void onCaloryClicked(Calory calory);
     }
-}
+    }
